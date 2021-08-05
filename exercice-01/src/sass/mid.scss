@@ -1,0 +1,18 @@
+@import"variables";
+
+.container {
+    text-align: center;
+    p {
+        background-image: url("../../assets/imgs/star-2.svg"),url("../../assets/imgs/star-3.svg");
+        background-repeat: no-repeat;
+        background-position: top 0% left 29%, bottom 0% right 25%;
+        color: $text-color;
+        font-size: 300%;
+        padding-top: 25px;
+    }
+
+    .star-3 {
+        position: absolute;
+    }
+
+}
